@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@0,700;1,400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+body {
+  font-family: "poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: "roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+/* utility class */
+
+.small_bold_text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: var("--padding-inline-section");
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* top_banner */
+.banner_text {
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+}
+.top_banner {
+  background-image: url("./images/banner.png");
+  background-color: #4fb3d4;
+  background-size: 300px;
+}
+
+/* navbar */
+
+.main_nav {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.log img {
+  width: 200px;
+}
+.nav_link {
+  flex-basis: 730px;
+}
+.nav_link ul {
+  justify-content: end;
+  gap: 40px;
+}
+.hover_link {
+  color: var(--primary-text-color);
+  transition: 0.2s ease-in-out;
+}
+.hover_link:hover {
+  color: var(--accent-color);
+}
+
+.hover_link_primary {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700px;
+  color: white !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 0.2s ease-in-out;
+}
+.hover_link_primary:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.hover_link_secondary {
+  border: solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 700px;
+  color: var(--primary-text-color) !important;
+  padding: 12px 24px;
+  transition: 0.2 ease-out;
+}
+.hover_link_secondary:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+
+/* header  */
+.header {
+  padding: 50px var(--padding-inline-section) 0;
+}
+.header_section {
+  justify-content: center;
+  gap: 50px;
+}
+.header_left {
+  max-width: 40vw;
+}
+.header_left h1 {
+  margin-top: 20px;
+}
+.get_start_btn {
+  margin-top: 20px;
+}
+.header_right img {
+  width: 600px;
+}
