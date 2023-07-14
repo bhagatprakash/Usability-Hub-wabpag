@@ -137,3 +137,152 @@ ul {
 .header_right img {
   width: 600px;
 }
+
+/* companies_section  */
+.compain-header {
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+}
+.logoes {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.log {
+  height: 46px;
+}
+
+/* feature_header  */
+.feature_header {
+  text-align: center;
+}
+.feature_section {
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url("./images/bacground-img1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feature_header h2 {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.feture_area {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+}
+.feture_card {
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+}
+.feture_card img {
+  width: 60px;
+}
+/* big_feature_section  */
+.big_feature_section {
+  padding: 30px var(--padding-inline-section) 0;
+}
+.big_feature_container {
+  gap: 30px;
+}
+.feature-img img {
+  width: 100%;
+}
+.feature-desc {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.feature-desc img {
+  height: 30px;
+}
+.profail_text {
+  margin-left: 10px;
+}
+
+/* exampal_section   */
+
+.exampal_section {
+  text-align: center;
+}
+.exampal_header {
+  flex-direction: column;
+  gap: 20px;
+}
+.exampal_header_text {
+  margin-bottom: 30px;
+}
+/* exampal_section  */
+
+.exmpale_header {
+  flex-direction: column;
+  gap: 20px;
+}
+.exmpal_card {
+  width: 23%;
+  position: relative;
+  min-height: 300px;
+  background: black;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("./images/cover_tasks.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.exampal_area {
+  justify-content: space-between;
+  margin-block: 30px;
+}
+.exmpal_card:hover {
+  box-shadow: 0 0 10px #888;
+}
+.card_text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+}
+
+/* cta section  */
+.cta_section {
+  padding: 120px var(--padding-inline-section);
+}
+.cta_container {
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+.cta_container h2 {
+  color: rgb(50, 45, 45);
+  font-size: 40px;
+}
+/* footert */
+footer {
+  background-color: #ebf2fa;
+  padding-block: 80px;
+}
+.footer_container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.link_colam {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.link_colam h4 {
+  font-size: 20px;
+}
+
+/* -- sub footer */
+.sub_footer_container {
+  justify-content: center;
+  gap: 30px;
+}
+.sub_footer {
+  background-color: #b9cde4;
+  padding: var(--padding-inline-section);
+}
