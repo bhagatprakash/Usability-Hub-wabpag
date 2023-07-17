@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Usability wabpag</title>
     <link rel="stylesheet" href="./usabilty.css" />
+    <link rel="stylesheet" href="./usabilty_phon.css" />
 
     <!-- icon cdn-->
     <link
@@ -30,7 +31,7 @@
           <img src="./images/logo.png" alt="logo" />
         </a>
 
-        <div class="nav_link">
+        <div class="nav_link" id="nav_links">
           <ul class="flex">
             <li><a href="#" class="hover_link">proudect</a></li>
             <li><a href="#" class="hover_link">Customer</a></li>
@@ -40,6 +41,9 @@
             <li><a href="#" class="hover_link_primary">Sign up</a></li>
           </ul>
         </div>
+        <a href="#" class="nav_toggle" id="nav-toggle">
+          <i class="fa-solid fa-burger"></i>
+        </a>
       </div>
     </nav>
     <!-- header  -->
@@ -146,7 +150,7 @@
 
     <!--  big_feature_section   -->
     <section class="big_feature_section">
-      <div class="container flex big_feature_container">
+      <div class="container flex big_feature_container" id="second_big_feature">
         <div class="feature-img">
           <img src="./images/image-2.png" alt="img-2" />
         </div>
@@ -346,5 +350,14 @@
         <a href="#" class="hover_link"><i class="fa-brands fa-twitter"></i></a>
       </div>
     </div>
+
+    <script>
+      const toggle_button = document.getElementById("nav-toggle");
+      const nav_link = document.getElementById("nav_links");
+
+      toggle_button.addEventListener("click", function () {
+        nav_link.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
