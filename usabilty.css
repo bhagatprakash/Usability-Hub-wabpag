@@ -303,8 +303,3 @@ footer {
   background-color: #b9cde4;
   padding: var(--padding-inline-section);
 }
-
-/* phone   */
-
-@media screen and (max-width: 991px) {
-}
