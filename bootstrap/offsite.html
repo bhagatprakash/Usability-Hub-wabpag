@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ofsite</title>
+    <link
+      rel="stylesheet"
+      href="./css/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"
+    />
+    <style>
+      .container {
+        border: 5px solid green;
+      }
+      .container-fluid {
+        border: 5px solid red;
+      }
+      .box-1 {
+        min-height: 250px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-sm-4 offset-sm-4 box-1 col-md-4 offset-md-4 col-lg-4 offset-lg-0"
+        >
+          box-1
+        </div>
+        <div class="col-md-4 offset-md-4 box-2">box-2</div>
+        <div class="col-md-4 offset-md-4 box-2">box-2</div>
+        <!--   <div class="col-md-4 offset-md-4 box-3">box-3</div>
+        <div class="col-md-4 offset-md-4 box-4">box-4</div> -->
+      </div>
+    </div>
+  </body>
+</html>
