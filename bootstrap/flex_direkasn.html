@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex_direction</title>
+    <link
+      rel="stylesheet"
+      href="./css/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"
+    />
+    <style>
+      .container {
+        border: 5px solid green;
+      }
+      .row {
+        border: 5px solid orange;
+      }
+      .box-1 {
+        font-size: 21px;
+        background-color: rgb(200, 120, 186);
+      }
+      .box-2 {
+        font-size: 21px;
+        background-color: rgb(0, 255, 4);
+      }
+      .box-3 {
+        font-size: 21px;
+        background-color: rgb(121, 183, 213);
+      }
+      .box-4 {
+        font-size: 21px;
+        background-color: rgb(190, 40, 32);
+      }
+      .box-5 {
+        font-size: 21px;
+        background-color: rgb(198, 208, 61);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- flex-lg-row-reverse -->
+    <!-- flex-column  -->
+    <!-- flex-column-reverse  -->
+    <!-- flex-nowrap -->
+    <div class="container">
+      <div class="row flex-row">
+        <div class="col box-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam
+          corrupti vitae expedita illum esse perspiciatis atque id consectetur
+          molestiae sapiente?
+        </div>
+        <div class="col box-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam
+          corrupti vitae expedita illum esse perspiciatis atque id consectetur
+          molestiae sapiente?
+        </div>
+        <div class="col flex-lg-fill box-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam
+          corrupti vitae expedita illum esse perspiciatis atque id consectetur
+          molestiae sapiente?
+        </div>
+        <div class="col box-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam
+          corrupti vitae expedita illum esse perspiciatis atque id consectetur
+          molestiae sapiente?
+        </div>
+        <div class="col box-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam
+          repellendus, sed magnam totam sequi error reiciendis natus laudantium
+          molestiae sapiente?
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
